@@ -39,12 +39,3 @@ The detailed answers to the reasoning questions are provided in the answers.md f
 
 Bonus: Requirements File
 The requirements.txt file contains all the necessary libraries to run the project.
-
-fastapi
-pydantic
-uvicorn
-torch
-transformers
-datasets
-scikit-learn
-pandas
