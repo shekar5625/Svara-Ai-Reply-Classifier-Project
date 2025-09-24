@@ -24,7 +24,7 @@ app = FastAPI(
 )
 
 try:
-    model_path = "./my_model"
+    model_path = "./model_training.py"
     tokenizer = AutoTokenizer.from_pretrained(model_path)
     model = AutoModelForSequenceClassification.from_pretrained(model_path)
 except OSError as e:
